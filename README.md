@@ -3,13 +3,17 @@ https://github.com/ArtOfEngineer/DjangoReactJs
 # Back-end
 
 ~~~sh
-cd myenv 
-source bin/activate
-python manage.py runserver
+
+source myenv/bin/activate
+
 cd DjangoAPI 
+python manage.py runserver
+
+# for new location
+pip install django 
+pip install django-cors-headers
+pip install djangorestframework
 ~~~
-
-
 
 
 
@@ -47,6 +51,9 @@ python manage.py makemigrations EmployeeApp
 ~~~sh
 cd my-app
 npm start
+
+#for new location
+npm install
 ~~~
 
 

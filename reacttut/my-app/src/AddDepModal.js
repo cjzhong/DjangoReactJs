@@ -25,7 +25,7 @@ export class AddDepModal extends Component{
             alert(result);
         },
         (error)=>{
-            alert('Failed');
+            alert('Failed'+process.env.REACT_APP_API+'department');
         })
     }
     render(){

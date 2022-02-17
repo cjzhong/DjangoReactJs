@@ -22,7 +22,7 @@ python -m django --version
 django-admin startproject DjangoAPI 
 
 pip install django-cors-headers
-
+pip install djangorestframework
 
 
 

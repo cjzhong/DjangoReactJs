@@ -92,3 +92,18 @@ npm install --save react-router-dom
 
 ~~~
 
+# Deploy
+
+~~~sh
+npm run build
+将build目录的内容全部cp到django的templates/react目录里，再将templates/react/static目录放到django的static目录里
+
+source myenv/bin/activate
+
+cd DjangoAPI 
+python manage.py createsuperuser
+python manage.py runserver
+
+
+~~~
+
